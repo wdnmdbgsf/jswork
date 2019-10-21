@@ -31,7 +31,7 @@ function showLog(logValues, showElement) {
     setTimeout("showLog(logValues,showDiv)",500)
 }
 
-function inserSort(str){
+function insertSort(str){
     let arr = str.split(',')
     let sortLog = []
     for (let i = 1; i < arr.length; i++){
