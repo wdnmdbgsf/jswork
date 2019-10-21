@@ -6,9 +6,10 @@ function sort(method){
         logs = bubbleSort(origin)
     }else if(method=='insert'){
         logs = insertSort(origin)
-    }
-    showDIv = document.getElementById('Anim')
-    logValues = logs.values()
-    console.log(logValues.next())
-    setTimeout("showlog(logValues,showDiv)", 50)
+}
+
+  showDiv = document.getElementById('Anim')
+  logValues = logs.values()
+  console.log(logValues.next())
+  setTimeout("showLog(logValues,showDiv)",80)
 }
