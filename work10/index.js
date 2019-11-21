@@ -32,4 +32,4 @@ function stat(){
         obj[dm] = (obj[dm] + 1) || 1;
     }
     document.getElementById('result').innerText = JSON.stringify(obj)
-}
+}  
